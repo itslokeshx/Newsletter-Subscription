@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.transparentpng.com/thumb/anonymous-mask/anonymous-mask-icon-png-25.png" alt="anonymous mask icon png @transparentpng.com ">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="cont">
+        <div class="leftpart" id="leftt">
+            <img src="icon-success.svg" id="suc">
+
+            <p class="lineone" id="lone">Stay updated!</p>
+            <p class="linetwo" id="ltwo">Join 60,000+ product managers receiving monthly updates on:</p>
+        <div class="alltick" id="top">
+            <div class="ticks">
+                <img src="icon-list.svg" >
+                <p>Product discovery and building what matters </p>
+            </div>
+            <div class="ticks">
+                <img src="icon-list.svg" >
+                <p>Measuring to ensure updates are a success </p>
+            </div>
+            <div class="ticks">
+                <img src="icon-list.svg" >
+                <p>And much more!</p>
+            </div>
+        </div>
+        
+            <div class="inputbox">
+            <form onsubmit="event.preventDefault(); validateMyForm();" >
+                <label id="lab" >Email address</label>
+            <input  placeholder="email@company.com" class="input" id="inp" />
+            <button type="submit" class="submit" onclick="userinput()" id="but">Subscribe to monthly newsletter </button>
+        </form>
+        </div>
+    </div>
+        <div class="rightpart" id="rytu">
+            <img id="img" src="desktop.svg">
+            <img id="ghost" src="illustration-sign-up-mobile.svg">
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
