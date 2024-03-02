@@ -1,6 +1,8 @@
 function userinput()
 {
 var emailName = document.getElementById("inp").value;
+If(emailName === "") 
+{alert("enter a valid email")} 
  document.getElementById("rytu").style.display="none";
  document.getElementById("top").style.display="none";
  document.getElementById("lone").innerText="Thanks for subscribing!";
