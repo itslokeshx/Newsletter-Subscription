@@ -1,3 +1,3 @@
 # project
-Newsletter login project 
-sitelink: https://369loki.github.io/frontendmentor2/
+# Newsletter login project 
+sitelink: https://thelokesha.github.io/frontendmentor2/
